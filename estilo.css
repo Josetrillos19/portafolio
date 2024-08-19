@@ -1,0 +1,216 @@
+.contenedor{
+    background-color: rgb(4, 1, 30);
+    border-radius: 15px;
+}
+
+body {
+    background-image: url("imagen/wp12025797.webp");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+a{
+    text-decoration: none;
+    background-color: rgb(4, 1, 30);
+    color: white;
+    padding: 15px;
+    margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.menu{
+    margin-right: 10px;
+    display: flex;
+    justify-content: right;
+    border-radius: 15px;
+   
+}
+.boton1{
+    border-radius: 12px;
+   
+}
+.boton2{
+    border-radius: 12px;
+}
+.boton3{
+    border-radius: 12px;
+}
+.circulo{
+    border-radius: 50%;
+    border: 5px solid hsl(313, 94%, 14%); 
+    box-shadow: 5px 10px 40px hwb(313 1% 73% / 0.557);
+    display: flex;
+    justify-content: center;
+  
+}
+.sesion1{
+    text-align: center;
+    color: rgb(254, 254, 255);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.s2{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.s2c1{
+    text-align: center;
+    color: rgb(254, 254, 255);
+}
+.s1c{
+    text-align: center;
+    color: rgb(254, 254, 255);
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex; /* Cambia grid a flex para un centrado más sencillo */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    border-radius: 15px;
+    background-color: rgb(4, 1, 30);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;   
+
+}
+p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+.form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+.form-container label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+.form-container input, .form-container select, .form-container textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+.form-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+.form-container button:hover {
+            background-color: #45a049;
+        }
+.body-contenedor{
+    background-image: url("imagen/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.contacto{
+    background-image: url(img/contact_bg.png);
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 0;
+}
+.contacto .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.contacto h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.contacto .fila{
+    display: flex;
+}
+.contacto .col{
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+.contacto .col input, .contacto .col textarea{
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #252A2E;
+    color: #fff;
+    font-size: 18px;
+}
+.contacto button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.contacto button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+.contacto button:hover .overlay{
+    width: 100%;
+}
+.contacto .col img{
+    width: 100%;
+}
+.contacto .col .info{
+    position: absolute;
+    top: 40%;
+    background-color: #252A2E;
+    padding: 20px;
+    max-width: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contacto .col .info ul{
+    list-style: none;
+}
+.contacto .col .info ul li{
+    margin-bottom: 20px;
+}
+.contacto .col .info ul li i{
+    color: #1CB698;
+    display: inline-block;
+    margin-right: 20px;
+}
